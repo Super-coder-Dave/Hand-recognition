@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(211, 251, 251);
+    font-family: 'Oswald', sans-serif;
+}
+button{
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+#Webcam,#Image{
+    border: 6px black ridge;
+    width: 350px;
+    height: 270px;
+}

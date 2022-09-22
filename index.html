@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title> Hand Recognition </title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+
+    </head>
+    <body>
+        <center>
+            <h1> Hand Recognition</h1>
+            <h2>Model is trained to identify your Hand</h2>
+            <h4>Me</h4>
+            <h4>Webcam View</h4>    
+            <div id="Webcam"></div>
+            <button onclick="Snapshot()">Capture</button>           
+            <div id="Image"></div>
+            <button onclick="check()">Identify Hand</button>
+            <h3>Hand:<span id="Object"></span></h3>
+            <h3>Accuracy:<span id="Accuracy"></span></h3>
+        </center>
+        <script src="script.js"></script>
+    </body>
+</html>
